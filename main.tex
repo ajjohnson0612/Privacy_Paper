@@ -28,16 +28,16 @@ Hunt \\
 \section{Abstract}
 \small
 \textit{
-With many different Search engines available to browse the modern day internet, we show the difference in tracking done from the search engines and how they show targeted advertisement based on what was searched for by the user. By typing in different key words to a search engine and recording whether the keywords showed up in advertisements while tracking after how many searches the ads appeared. We found that the search engine DuckDuckGo had the least amount of advertisement shown for the keywords entered. }    
+\qquad With many different Search engines available to browse the modern day internet, we show the difference in tracking done from the search engines and how they show targeted advertisement based on what was searched for by the user. By typing in different key words to a search engine and recording whether the keywords showed up in advertisements while tracking after how many searches the ads appeared. We found that the search engine DuckDuckGo had the least amount of advertisement shown for the keywords entered. }    
 
 \section{Introduction}
-\small
-\textit{
-	Search engines have always been a huge part of the web. The computer revolution would've never happened if it was'nt for yahoos inovative way of scraping the web for relevant information. Since those days, however, the web has become more and more personalized depending on the individual. Our search engine results and advertisements are a prime example of the internet tracking and controlling our user experience. The outrageous amount of data tracking spanning accross companies gave our team the idea to see if there is a correlation between search queries and targeted advertisements. Our initial hunch is google search communicates with google analytics and can cater advertisements relevant to what the user has frequently searched. To further our study, we are also going to see if other search engines share information to advertisement software as well.  
-}
+
+
+\qquad Search engines have always been a huge part of the web. The computer revolution would've never happened if it was'nt for yahoos inovative way of scraping the web for relevant information. Since those days, however, the web has become more and more personalized depending on the individual. Our search engine results and advertisements are a prime example of the internet tracking and controlling our user experience. The outrageous amount of data tracking spanning accross companies gave our team the idea to see if there is a correlation between search queries and targeted advertisements. Our initial hunch is google search communicates with google analytics and can cater advertisements relevant to what the user has frequently searched. To further our study, we are also going to see if other search engines share information to advertisement software as well.  
+
 
 \section{Design}
-For the design of our experiment, we decided scripting our search results was the fastest and best way to get targeted advertisements. To conduct the experiment, we set up a virtual machine with a fresh install of the latest stable release of Mozilla FireFox to remove all possibility of previous searches potentially influencing the shown Advertisement. For the experiment, we created a list of eleven different key words that were are to be used as search parameters in a specific search engine. Our script then opens 50 new tabs opened with the search results of each key word. To conclude, we use a list of common websites that are known to be heavily populated with advertisements and see how many targeted advertisements are correlated with our past search queries. 
+\qquad For the design of our experiment, we decided scripting our search results was the fastest and best way to get targeted advertisements. To conduct the experiment, we set up a virtual machine with a fresh install of the latest stable release of Mozilla FireFox to remove all possibility of previous searches potentially influencing the shown Advertisement. There were also no adblockers of any sort used.  For the experiment, we created a list of eleven different key words that were are to be used as search parameters in a specific search engine. Our script then opens 50 new tabs opened with the search results of each key word. To conclude, we use a list of common websites that are known to be heavily populated with advertisements and see how many targeted advertisements are correlated with our past search queries. 
 
 \begin{tabular}{ c c c }
 	
@@ -51,18 +51,19 @@ For the design of our experiment, we decided scripting our search results was th
 	\hline
 \end{tabular}
 
+For this experiment we decided to use four different search engines to see how how they differed in key word input traking. With hopes of finding the best search engine for respecting user privacy in their searches. We used :
 
+\textbf{Google -} Google being the most widly used modern search engine was the basis for this experiment, asking the quesiton of how bad is the reported tracking on user inputs and browsing patterns used to create targeted ads at the user.
 
-\textbf{Google}
+\textbf{Bing -} With Bing being owned by Microsoft it was also an option to see if another massive company is conducting a similar amout of tracking as the Google search engine on its users.
 
-\textbf{Bing}
+\textbf{Yahoo -} One of the oldest search engines around, not the most used in the modern day, but with a moderate amount of users Yahoo is still a canadite to see the extent of their tracking.
 
-\textbf{DuckDuckGo}
+\textbf{DuckDuckGo - } The newest of all the browsers we conducted this experiment on, the publishers of this search engine site on their webpage that their number one concern with the search engine is repsecting user privacy with little to no tracking done on keywords and browsing patterns. As well as stating that they never store any personal data on the user.
 
-\section{Method}
-\small
+\qquad Each team member of our group used our template script changed the url to the search engine we were testing. See the figure below (screencap of code in mintos). After running the script, we went to some websites that are known to have alot of targeted advertisements. The list of websites is:
+
 \textit{
-	Each team member of our group used our template script changed the url to the search engine we were testing. See the figure below (screencap of code in mintos). After running the script, we went to some websites that are known to have alot of targeted advertisements. The list of websites is:
 	\begin{itemize}
 		\item https://www.theverge.com/
 		\item https://www.foxnews.com/
@@ -75,8 +76,11 @@ For the design of our experiment, we decided scripting our search results was th
 		\item https://www.buzzfeed.com/
 		\item https://www.ign.com/
 	\end{itemize}
-	We visited each site on our virtual box and tallied which websites had a relevant advertisement to our search results. The results for each search engine differ.
 }
+	We visited each site on our virtual box and tallied which websites had a relevant advertisement to our search results. The results for each search engine differ.
+
+\section{Evaluation}
+
 
 \section{Discussion}
 
